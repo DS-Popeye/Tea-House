@@ -56,7 +56,11 @@
                     <p class="py-6">
                         Tea and Botanical Sollutions Supplier Give Optimum Satisfaction To Your Taste Buds
                     </p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button class="btn bg-gradient-to-r from-[#FF8913] to-[#f00] text-white">Explore More <svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <path d="M4.5 19.7788L19.5 4.77881M19.5 4.77881H8.25M19.5 4.77881V16.0288" stroke="white"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
                 </div>
                 <div>
                     <img src="./images/banner.png" class="max-w-sm rounded-lg" />
@@ -81,7 +85,7 @@
                 in some form, by injected humour, or randomised words which don't look even slightly believable.
             </p>
             <!-- Tea Card Container -->
-            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-5">
                 <!-- First Card -->
                 <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
                     <figure class="px-10 pt-10">
@@ -128,7 +132,7 @@
 
         <!-- Great Tea Fresh Tea Section -->
 
-        <section class="my-24 flex flex-col lg:flex-row gap-12">
+        <section class="p-5 my-24 flex flex-col lg:flex-row gap-12 pt-12">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-1">
                 <div class="rounded-xl h-36 bg-gradient-to-r from-[#f80] to-[#FF8938] opacity-10"></div>
                 <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center">
@@ -162,30 +166,70 @@
 
         <!-- Super Client Section -->
         <section
-            class="my-24 rounded-xl bg-gradient-to-r from-[#FF8913] to-[#f00] px-16 py-24 flex flex-col lg:flex-row gap-12">
-            <div class="">
-                <h2 class="text-5xl font-extrabold text-white">
-                    Meet Our Super <br>
-                    Clients
-                </h2>
-                <p class="text-white">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    believable.
-                </p>
-                <button class="btn btn-primary">Show All</button>
+            class="p-5 my-24 rounded-xl bg-gradient-to-r from-[#FF8913] to-[#f00] px-16 py-24 flex flex-col lg:flex-row gap-12">
+
+            <div class="flex items-center lg:pr-28">
+                <div class="space-y-5">
+                    <h2 class="text-5xl font-extrabold text-white">
+                        Meet Our Super <br>
+                        Clients
+                    </h2>
+                    <p class="text-white pb-10">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable.
+                    </p>
+                    <a href="" class="bg-white px-1 rounded-lg btn">
+                        <button
+                            class="btn text-transparent bg-clip-text bg-gradient-to-r from-[#f80] to-[#df0700] font-extrabold text-base border-0">Show
+                            All</button>
+                    </a>
+                </div>
             </div>
 
-            <div>
-                <!-- Review -->
-                <div class="p-10 rounded-lg bg-white">
-                    <img src="./images/client.png" alt="">
+            <!-- Review Container -->
+            <div class="relative p-5">
+                <!-- Next Review -->
+                <div class="opacity-40 z-10 mb-16 p-10 rounded-lg bg-white relative">
+                    <img class="absolute -left-7 -top-5 border-4 rounded-full border-white bg-white"
+                        src="./images/client.png" alt="">
                     <p class="text-[#777]">
                         We are providing the best and suitable home insurance services for the people who are interested
                         to treatment
                     </p>
-                    <h4 class="font-bold">Ilham Yuha</h4>
+                    <h4 class="font-bold mt-5">Ilham Yuha</h4>
                     <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end">
+                        <img class="" src="./images/circles.png" alt="">
+                    </div>
+                </div>
+                <!-- Current Review -->
+                <div class="p-10 z-20 rounded-lg bg-white absolute top-40 lg:-left-32 lg:w-[460px]">
+                    <img class="absolute -left-7 -top-5 border-4 rounded-full border-white bg-white"
+                        src="./images/client.png" alt="">
+                    <p class="text-[#777]">
+                        We are providing the best and suitable home insurance services for the people who are interested
+                        to treatment
+                    </p>
+                    <h4 class="font-bold mt-5">Ilham Yuha</h4>
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end">
+                        <img class="" src="./images/circles.png" alt="">
+                    </div>
+                </div>
+                <!-- Previous Review -->
+                <div class="z-10 opacity-40 p-10 rounded-lg bg-white relative">
+                    <img class="absolute -left-7 -top-5 border-4 rounded-full border-white bg-white"
+                        src="./images/client.png" alt="">
+                    <p class="text-[#777]">
+                        We are providing the best and suitable home insurance services for the people who are interested
+                        to treatment
+                    </p>
+                    <h4 class="font-bold mt-5">Ilham Yuha</h4>
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end">
+                        <img class="" src="./images/circles.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
