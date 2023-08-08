@@ -19,6 +19,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/82515527f8.js" crossorigin="anonymous"></script>
+
     <!-- Tailwind Custom color -->
     <script>
         tailwind.config = {
@@ -42,8 +45,43 @@
 </head>
 
 <body class="font-manrope">
-    <header></header>
-    <main></main>
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold">
+                        It's Good <br>
+                        tea time at The <br>
+                        Tea House</h1>
+                    <p class="py-6">
+                        Tea and Botanical Sollutions Supplier Give Optimum Satisfaction To Your Taste Buds
+                    </p>
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+                <div>
+                    <img src="./images/banner.png" class="max-w-sm rounded-lg" />
+                    <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 rounded-[10px]">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl font-bold">5.00</h3>
+                            <p class="text-sm">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto">
+        <!-- Feature Section -->
+        <section class="text-center">
+            <h2 class="text-5xl font-extrabold">Our Feature Product</h2>
+            <p>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+        </section>
+    </main>
     <footer></footer>
 
 </body>
